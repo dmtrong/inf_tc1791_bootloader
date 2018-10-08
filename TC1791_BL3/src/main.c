@@ -6,18 +6,18 @@
 **                                                                        *
 **  DESCRIPTION :                                                         *
 **      -Communication with HOST via ASC0                                 *
-**      -Implementation of flash functions:         					  *
-**		  -Erase flash                                                    *
-**		  -Program flash												  *
-**		  -Verify flash								    				  *
-**		  -Protect flash												  *
-**  							                                          *
+**      -Implementation of flash functions:         			  *
+**		  -Erase flash                                            *
+**		  -Program flash					  *
+**		  -Verify flash						  *
+**		  -Protect flash					  *
+**  							                  *
 **  REMARKS :                                                             *
-**    -Stack and CSA initialized        								  *
+**    -Stack and CSA initialized        				  *
 **    -Interrupt and Traptable not initialized                            *
 **  	                                                                  *
 **  TODO: if protected read/write/erase operations will get no response   *
-**  							                                          *
+**  							                  *
 **************************************************************************/
 #include <stdlib.h>
 #include <stdio.h>
